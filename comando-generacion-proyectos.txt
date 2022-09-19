@@ -1,0 +1,8 @@
+-- Creacion de proeyectos
+	npx react-native init AwesomeTSProject --template react-native-template-typescript
+
+-- Ejecucion ded proyectos
+	Android
+		npx react-native run-android
+	Mac
+		No tengo mac :(
