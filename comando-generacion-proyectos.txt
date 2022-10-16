@@ -6,3 +6,17 @@
 		npx react-native run-android
 	Mac
 		No tengo mac :(
+
+// SI AUN ACASO HACES PARA IOS REVISAR EL VIDEO https://www.udemy.com/course/react-native-fh/learn/lecture/25257898#overview QUE EXPLICA SOBRE EL PODFILE.
+
+
+module.exports = {
+  root: true,
+  extends: '@react-native-community',
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  rules: {
+    'prettier/prettier': 0,
+    'react-native/no-inline-styles': 'off',
+  },
+  overrides: [
